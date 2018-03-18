@@ -48,15 +48,6 @@ namespace GraphQL_TestServer
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-
-            //var lf = app.ApplicationServices.GetService<ILoggerFactory>();
-            //var log = lf.CreateLogger<Startup>();
-
-            //var data = app.ApplicationServices.GetService<DataService>();
-
-            //data.Users.ForEach(x => log.LogDebug(x.ToString()));
-            //data.Categories.ForEach(x => log.LogDebug(x.ToString()));
-            //data.Posts.ForEach(x => log.LogDebug(x.ToString()));
         }
     }
 }
