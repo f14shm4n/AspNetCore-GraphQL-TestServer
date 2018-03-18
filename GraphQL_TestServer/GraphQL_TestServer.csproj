@@ -9,7 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="f14.Common" Version="1.1.4" />
+    <PackageReference Include="GenFu" Version="1.4.22" />
+    <PackageReference Include="GraphQL" Version="0.17.3" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
 </Project>
